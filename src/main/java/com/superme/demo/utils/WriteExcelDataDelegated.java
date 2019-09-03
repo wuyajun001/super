@@ -21,7 +21,7 @@ public interface WriteExcelDataDelegated {
      * @param pageSize      分批查询数据量
      * @throws Exception
      */
-    public abstract void writeExcelData(SXSSFSheet eachSheet, Integer startRowCount, Integer endRowCount, Integer currentPage, Integer pageSize) throws Exception;
+    void writeExcelData(SXSSFSheet eachSheet, Integer startRowCount, Integer endRowCount, Integer currentPage, Integer pageSize) throws Exception;
  
  
 }

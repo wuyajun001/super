@@ -1,7 +1,6 @@
 package com.superme.demo.controller;
 
 import com.superme.demo.service.PoiService;
-import com.superme.demo.service.UserService;
 import com.superme.demo.utils.PageItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
