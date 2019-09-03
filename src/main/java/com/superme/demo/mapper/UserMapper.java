@@ -1,10 +1,8 @@
 package com.superme.demo.mapper;
 
 
-import com.superme.demo.bean.PoiUser;
 import com.superme.demo.bean.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -22,18 +20,4 @@ public interface UserMapper {
      */
     List<User> getUsers();
 
-    /**
-     * 创建测试数据
-     */
-    void creatPoiUser(PoiUser poiUser);
-
-    /**
-     * 获取总数量
-     */
-    long getCount();
-
-    /**
-     * 查询所有数据
-     */
-    List<PoiUser> getPoiUsers(@Param("pageStart") long pageStart, @Param("pageSize") long pageSize);
 }

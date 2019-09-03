@@ -1,5 +1,6 @@
 package com.superme.demo.controller;
 
+import com.superme.demo.service.PoiService;
 import com.superme.demo.service.UserService;
 import com.superme.demo.utils.PageItem;
 import org.slf4j.Logger;
@@ -25,28 +26,27 @@ public class PoiController {
     private static Logger logger = LoggerFactory.getLogger(PoiController.class);
 
     @Autowired
-    private UserService userService;
+    private PoiService poiService;
 
 
     @RequestMapping(value = "/getExcell/{pageNum}/{pageSize}")
     public void getExcell(@PathVariable int pageNum, @PathVariable int pageSize, HttpServletResponse response) {
         logger.info(pageNum + "---" + pageSize);
-        userService.getExcell(new PageItem(pageNum, pageSize), response);
+        poiService.getExcell(new PageItem(pageNum, pageSize), response);
         logger.info("Excell表格已经生成完毕!");
     }
 
     @RequestMapping(value = "/easyExcell/{pageNum}/{pageSize}")
     public void getEasyExcell(@PathVariable int pageNum, @PathVariable int pageSize, HttpServletResponse response) {
         logger.info(pageNum + "---" + pageSize);
-        userService.getEasyExcell(new PageItem(pageNum, pageSize), response);
+        poiService.getEasyExcell(new PageItem(pageNum, pageSize), response);
         logger.info("阿里巴巴表格已经打印完毕");
 
     }
 
     @RequestMapping(value = "/creat")
     public void creatData() {
-        userService.creatPoiUser();
+        poiService.creatPoiUser();
     }
-
 
 }

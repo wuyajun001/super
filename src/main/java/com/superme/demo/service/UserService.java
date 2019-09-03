@@ -1,9 +1,7 @@
 package com.superme.demo.service;
 
 import com.superme.demo.bean.User;
-import com.superme.demo.utils.PageItem;
 
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -19,19 +17,6 @@ public interface UserService {
      */
     List<User> getUsers();
 
-    /**
-     * 创建需要的数据
-     */
-    void creatPoiUser();
 
-    /**
-     * 输出表格
-     */
-    void getExcell(PageItem pageItem, HttpServletResponse response);
-
-    /**
-     * 使用阿里巴巴EasyExcel导出表格
-     */
-    void getEasyExcell(PageItem pageItem, HttpServletResponse response);
 
 }
