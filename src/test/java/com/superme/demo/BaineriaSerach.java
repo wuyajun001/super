@@ -1,7 +1,7 @@
 package com.superme.demo;
 
 /**
- * description:<TODO>
+ * description:<二分查找法>
  *
  * @author 武亚军 (wuyajun0928@aliyun.com)
  * @version 1.0
