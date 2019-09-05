@@ -5,6 +5,7 @@ import com.alibaba.excel.metadata.Sheet;
 import com.alibaba.excel.metadata.Table;
 import com.alibaba.excel.support.ExcelTypeEnum;
 import com.superme.demo.bean.PoiUser;
+import com.superme.demo.constent.PoiConstent;
 import com.superme.demo.mapper.PoiMapper;
 import com.superme.demo.utils.PageItem;
 import com.superme.demo.utils.PoiUtil;
@@ -42,7 +43,7 @@ public class PoiServiceImpl implements PoiService {
 
     @Override
     public void creatPoiUser() {
-        for (int i = 9; i < 1000; i++) {
+        for (int i = 0; i < PoiConstent.NEED_CREAT_NUMS; i++) {
             PoiUser poiUser = new PoiUser();
             poiUser.setUserId(i + 1);
             poiUser.setUserName("测试" + i);

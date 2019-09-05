@@ -97,9 +97,9 @@ public class PoiUtil {
      * @throws IOException
      */
     public static void downLoadExcelToWebsite(SXSSFWorkbook wb, HttpServletResponse response, String fileName) throws IOException {
- 
+        // 设置下载的文件名
         response.setHeader("Content-disposition", "attachment; filename="
-                + new String((fileName + ".xlsx").getBytes("utf-8"), "ISO8859-1"));//设置下载的文件名
+                + new String((fileName + ".xlsx").getBytes("utf-8"), "ISO8859-1"));
  
         OutputStream outputStream = null;
         try {
