@@ -21,8 +21,8 @@ public class SuperApplication extends SpringBootServletInitializer {
         return applicationBuilder.sources(SuperApplication.class);
     }
 
-//    public static void main(String[] args) {
-//        SpringApplication.run(SuperApplication.class, args);
-//    }
+    public static void main(String[] args) {
+        SpringApplication.run(SuperApplication.class, args);
+    }
 
 }
