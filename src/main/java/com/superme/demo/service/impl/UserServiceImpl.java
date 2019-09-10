@@ -1,16 +1,15 @@
-package com.superme.demo.service;
+package com.superme.demo.service.impl;
 
 
 import com.alibaba.fastjson.JSON;
 import com.superme.demo.bean.User;
 import com.superme.demo.mapper.UserMapper;
+import com.superme.demo.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 
