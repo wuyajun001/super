@@ -34,12 +34,14 @@ public class SuperApplicationTests {
                     ArrayList EmpObj = (ArrayList) object;
 
                     if (EmpObj != null && EmpObj.get(0) != null && EmpObj.get(1) != null && EmpObj.get(2) != null && EmpObj.get(3) != null) {
-                        stringBuilder.append("(").append("'" + EmpObj.get(2) + "'").append(", ")
+                        stringBuilder.append("(")
+                                .append("'" + EmpObj.get(2).toString().trim() + "'").append(", ")
                                 .append("'$2a$10$9RfY1.UyXlVaB2.lgbDSXuO33P2tfIsseNuKsk0c.cAFq4iROSwAa'").append(", ")
-                                .append("'0'").append(", ").append("'" + EmpObj.get(1) + "'").append(", ")
-                                .append("'" + EmpObj.get(2) + "'").append(", ")
-                                .append("'" + EmpObj.get(3) + "'").append("),").append("\n");
-
+                                .append("'0'").append(", ")
+                                .append("'" + EmpObj.get(1).toString().replace(" ", "") + "'").append(", ")
+                                .append("'" + EmpObj.get(2).toString().trim() + "'").append(", ")
+                                .append("'" + EmpObj.get(3).toString().trim() + "'")
+                                .append("),").append("\n");
                     }
                 }
 
