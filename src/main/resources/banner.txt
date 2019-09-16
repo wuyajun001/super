@@ -1,20 +1,24 @@
 
-                    .::::.
-                  .::::::::.
-                 :::::::::::
-             ..:::::::::::'       Super Me !
-           '::::::::::::'
-             .::::::::::
-        '::::::::::::::..
-             ..::::::::::::.
-           ``::::::::::::::::
-           ::::``:::::::::'        .:::.
-           ::::'   ':::::'       .::::::::.
-         .::::'      ::::     .:::::::'::::.
-        .:::'       :::::  .:::::::::' ':::::.
-       .::'        :::::.:::::::::'      ':::::.
-      .::'         ::::::::::::::'         ``::::.
-  ...:::           ::::::::::::'              ``::.
- ````':.          ':::::::::'                  ::::..
-                    '.:::::'                    ':'````..
 
+   SSSSSSSSSSSSSSS                                                                                    MMMMMMMM               MMMMMMMM
+ SS:::::::::::::::S                                                                                   M:::::::M             M:::::::M
+S:::::SSSSSS::::::S                                                                                   M::::::::M           M::::::::M
+S:::::S     SSSSSSS                                                                                   M:::::::::M         M:::::::::M
+S:::::S            uuuuuu    uuuuuu  ppppp   ppppppppp       eeeeeeeeeeee    rrrrr   rrrrrrrrr        M::::::::::M       M::::::::::M    eeeeeeeeeeee
+S:::::S            u::::u    u::::u  p::::ppp:::::::::p    ee::::::::::::ee  r::::rrr:::::::::r       M:::::::::::M     M:::::::::::M  ee::::::::::::ee
+ S::::SSSS         u::::u    u::::u  p:::::::::::::::::p  e::::::eeeee:::::eer:::::::::::::::::r      M:::::::M::::M   M::::M:::::::M e::::::eeeee:::::ee
+  SS::::::SSSSS    u::::u    u::::u  pp::::::ppppp::::::pe::::::e     e:::::err::::::rrrrr::::::r     M::::::M M::::M M::::M M::::::Me::::::e     e:::::e
+    SSS::::::::SS  u::::u    u::::u   p:::::p     p:::::pe:::::::eeeee::::::e r:::::r     r:::::r     M::::::M  M::::M::::M  M::::::Me:::::::eeeee::::::e
+       SSSSSS::::S u::::u    u::::u   p:::::p     p:::::pe:::::::::::::::::e  r:::::r     rrrrrrr     M::::::M   M:::::::M   M::::::Me:::::::::::::::::e
+            S:::::Su::::u    u::::u   p:::::p     p:::::pe::::::eeeeeeeeeee   r:::::r                 M::::::M    M:::::M    M::::::Me::::::eeeeeeeeeee
+            S:::::Su:::::uuuu:::::u   p:::::p    p::::::pe:::::::e            r:::::r                 M::::::M     MMMMM     M::::::Me:::::::e
+SSSSSSS     S:::::Su:::::::::::::::uu p:::::ppppp:::::::pe::::::::e           r:::::r                 M::::::M               M::::::Me::::::::e
+S::::::SSSSSS:::::S u:::::::::::::::u p::::::::::::::::p  e::::::::eeeeeeee   r:::::r                 M::::::M               M::::::M e::::::::eeeeeeee
+S:::::::::::::::SS   uu::::::::uu:::u p::::::::::::::pp    ee:::::::::::::e   r:::::r                 M::::::M               M::::::M  ee:::::::::::::e
+ SSSSSSSSSSSSSSS       uuuuuuuu  uuuu p::::::pppppppp        eeeeeeeeeeeeee   rrrrrrr                 MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee
+                                      p:::::p
+                                      p:::::p
+                                     p:::::::p
+                                     p:::::::p
+                                     p:::::::p
+                                     ppppppppp
