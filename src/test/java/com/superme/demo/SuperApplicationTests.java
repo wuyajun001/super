@@ -20,6 +20,7 @@ public class SuperApplicationTests {
     public void readExcel() {
 
         try {
+            // 需要转换的表格的地址
             InputStream inputStream = new FileInputStream("E:/test.xlsx");
 
             String sqlLanguage = "insert into base_user (login_name, password, role, real_name, mobile, org_name) values \n";
@@ -53,7 +54,7 @@ public class SuperApplicationTests {
                         // 将输入流关闭
                         inputStream.close();
 
-                        // 然后将字符串写入txt文件夹中
+                        // 然后将字符串写入指定目录的sql文件夹中
                         File file = new File("E:/inset_base_user.sql");
                         PrintWriter printWriter = new PrintWriter(file);
                         printWriter.println(substring);
