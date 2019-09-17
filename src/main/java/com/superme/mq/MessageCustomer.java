@@ -1,9 +1,7 @@
 package com.superme.mq;
 
-import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -17,11 +15,9 @@ import org.springframework.stereotype.Component;
 @RabbitListener(queues = "rabbitMQ")
 public class MessageCustomer {
 
-    @Autowired
-    private AmqpTemplate rabbitmqTemplate;
-
     /**
      * 消息消费
+     * AmqpTemplate rabbitmqTemplate;
      * @RabbitHandler 代表此方法为接受到消息后的处理方法
      */
     @RabbitHandler

@@ -5,8 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 
 /**
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-@RestController
+@Controller
 public class SuperApplication extends SpringBootServletInitializer {
 
     @Override
@@ -32,7 +33,7 @@ public class SuperApplication extends SpringBootServletInitializer {
 
     @RequestMapping(value = "/")
     public String welcome(){
-        return "<h1>Welcome To My SpringBoot !</h1>";
+        return "redirect:/index.html";
     }
 
 }
