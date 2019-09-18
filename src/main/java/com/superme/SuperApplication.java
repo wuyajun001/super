@@ -6,7 +6,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
@@ -32,7 +31,7 @@ public class SuperApplication extends SpringBootServletInitializer {
     }
 
     @RequestMapping(value = "/")
-    public String welcome(){
+    public String welcome() {
         return "redirect:/index.html";
     }
 

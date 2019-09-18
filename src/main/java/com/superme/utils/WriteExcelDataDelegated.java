@@ -1,7 +1,7 @@
 package com.superme.utils;
- 
+
 import org.apache.poi.xssf.streaming.SXSSFSheet;
- 
+
 /**
  * description:<EXCEL写数据委托类>
  *
@@ -10,7 +10,7 @@ import org.apache.poi.xssf.streaming.SXSSFSheet;
  * @date 2019/8/25 11:50
  */
 public interface WriteExcelDataDelegated {
- 
+
     /**
      * EXCEL写数据委托类  针对不同的情况自行实现
      *
@@ -22,6 +22,6 @@ public interface WriteExcelDataDelegated {
      * @throws Exception
      */
     void writeExcelData(SXSSFSheet eachSheet, Integer startRowCount, Integer endRowCount, Integer currentPage, Integer pageSize) throws Exception;
- 
- 
+
+
 }

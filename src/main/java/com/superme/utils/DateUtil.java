@@ -1,8 +1,8 @@
 package com.superme.utils;
- 
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
- 
+
 /**
  * description:<时间格式工具类>
  *
@@ -11,7 +11,7 @@ import java.util.Date;
  * @date 2019/8/25 11:50
  */
 public class DateUtil {
- 
+
     public static final String YYYY_MM_DD_HH_MM_SS = "yyyy-MM-dd HH:mm:ss";
     public static final String YYYY_MM_DD = "yyyy-MM-dd";
     public static final String YYYY_MM_DD_HH_MM = "yyyy-MM-dd HH:mm";
@@ -27,5 +27,5 @@ public class DateUtil {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
         return simpleDateFormat.format(date);
     }
- 
+
 }

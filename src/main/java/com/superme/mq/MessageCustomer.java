@@ -18,6 +18,7 @@ public class MessageCustomer {
     /**
      * 消息消费
      * AmqpTemplate rabbitmqTemplate;
+     *
      * @RabbitHandler 代表此方法为接受到消息后的处理方法
      */
     @RabbitHandler
